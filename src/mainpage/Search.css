@@ -1,0 +1,31 @@
+.Search_main_div {
+  background-color: black;
+}
+.Search_main_container .search_bar {
+  width: 90%;
+  height: 3vmax;
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+  border: 2px solid white;
+}
+
+.Search_main_container .svg1 {
+  color: white;
+  position: absolute;
+  width: 2vmax;
+  height: 2vmax;
+  padding: 0.4vmax;
+
+  transform: translatey(0.3vmax);
+}
+
+.Search_main_container .svg2 {
+  color: white;
+  position: absolute;
+  width: 2vmax;
+  height: 2vmax;
+  padding: 0.4vmax;
+
+  transform: translatex(-8vmax);
+}
