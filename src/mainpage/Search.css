@@ -1,5 +1,69 @@
 .Search_main_div {
   background-color: black;
+  display: flex;
+}
+.Search_filters {
+  width: 30%;
+}
+.Search_main_container {
+  width: 60%;
+}
+.Search_filters > div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Search_filters > div > input,
+.Search_Price_inputs > input {
+  height: 2vmax;
+  background-color: grey;
+  color: white;
+}
+.Search_filters > div > input {
+  width: 20vmax;
+}
+
+.Search_Price_inputs {
+  display: flex;
+}
+
+.Search_Price_inputs > input {
+  width: 8vmax;
+  margin: 1vmax;
+}
+.Search_filters > div > input::placeholder,
+.Search_Price_inputs > input::placeholder {
+  color: white;
+  font-size: 1vmax;
+  font-weight: bold;
+}
+
+.select_p {
+  cursor: pointer;
+}
+
+.serch_filter_lable {
+  color: white;
+  margin-top: 1vmax;
+  font-size: 1vmax;
+  font-weight: bold;
+}
+
+.Search_city_input > select {
+  width: 20vmax;
+  height: 2vmax;
+  background-color: grey;
+  color: white;
+  font-size: 1vmax;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5vmax;
+}
+.Search_city_input > input::placeholder {
+  color: white;
+  font-size: 1vmax;
+  font-weight: bold;
 }
 .Search_main_container .search_bar {
   width: 90%;
@@ -28,4 +92,9 @@
   padding: 0.4vmax;
 
   transform: translatex(-8vmax);
+}
+
+.search_bar::placeholder {
+  font-size: 1vmax;
+  text-align: center;
 }
